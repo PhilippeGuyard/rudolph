@@ -25,11 +25,10 @@ For a detailed explanation of each step, including the logic behind FFT and the 
 
 Clone the repository and install the required packages:
 
-    ```
-    git clone https://github.com/pguyard/rudolph.git
-    cd your-repo-name
-    pip install -r requirements.txt
-    ```
+```
+jupyter notebook your-notebook-name.ipynb
+```
+    
 ## Usage
 
 1. Open the Jupyter Notebook:    
