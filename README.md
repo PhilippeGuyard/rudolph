@@ -1,18 +1,18 @@
-# Line Drawings with FFT (or PCA) and Python
+# Line Drawings with FFT and Python 
 
 ## Overview
 
 This repository contains code for illustrating decomposing line drawings using Fast Fourier Transform (FFT) and Python. The project leverages OpenCV for edge detection and NumPy for FFT decomposition and reconstruction.
-I have also included a 'bonus track' with the same idea, but using Principle Components Analysis (PCA) instead of FFT. This is in the 'pca.py' file. This is not so interesting as with 3 components, the image is already reconstructed. However, it is interesting to see how the components look like.
+I have also included a 'bonus track' with the same idea, but using Principle Components Analysis (PCA) instead of FFT. This is in the 'pca.py' file. This is not so interesting as with 3 components, the original image is already reconstructed. However, it is interesting to see how the components look like and I encourage you to play around with different images to see how the reconstruction changes.
 There is also a variant of the code in gif.py to produce a gif from the series of FFT decompositions.
 
 ## Features
 
 - Edge Detection using OpenCV's Canny algorithm
 - FFT Decomposition and Reconstruction using NumPy
-- PCA Decomposition and Reconstruction using Scikit learn
 - Visualisation using Matplotlib
-- gif creation using Imagio
+- PCA Decomposition and Reconstruction using Scikit learn (bonus)
+- gif creation using Imagio (bonus)
 
 ## Detailed Explanations
 
