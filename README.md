@@ -28,17 +28,7 @@ Clone the repository and install the required packages:
 ```
 jupyter notebook your-notebook-name.ipynb
 ```
-    
-## Usage
 
-1. Open the Jupyter Notebook:    
-        
-    ```
-    jupyter notebook your-notebook-name.ipynb
-    ```
-    
-
-2. Run the cells in the notebook to generate the festive line drawings.
 
 ## Contributing
 
