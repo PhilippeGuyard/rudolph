@@ -1,11 +1,17 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import urllib.request
 
 
 def load_and_edge_detect(image_path):
     try:
-        image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+        url = "https://as2.ftcdn.net/v2/jpg/00/45/94/11/1000_F_45941111_waPBx3P01ql45vvUWSLHinIXmImriNkU.jpg"
+        arr = np.asarray(
+            bytearray(urllib.request.urlopen(url).read()), dtype=np.uint8
+        )
+
+        image = cv2.imdecode(arr, cv2.IMREAD_GRAYSCALE)
         if image is None:
             raise FileNotFoundError("Image not found.")
         edges = cv2.Canny(image, 100, 200)
