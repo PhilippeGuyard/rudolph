@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains code for creating line drawings using Fast Fourier Transform (FFT) and Python. The project leverages OpenCV for edge detection and NumPy for FFT decomposition and reconstruction. The code is organised as a Jupyter Notebook, providing a step-by-step walkthrough of the entire process.
+This repository contains code for illustrating decomposing line drawings using Fast Fourier Transform (FFT) and Python. The project leverages OpenCV for edge detection and NumPy for FFT decomposition and reconstruction.
 
 ## Features
 
