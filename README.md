@@ -32,15 +32,6 @@ For a detailed explanation of each step of the FFT, including the logic behind F
 - Scikit learn (for PCA)
 - Imagio (for creating a gif)
 
-## Installation
-
-Clone the repository and install the required packages:
-
-```
-jupyter notebook your-notebook-name.ipynb
-```
-
-
 ## Contributing
 
 Feel free to fork the repository and submit pull requests.
